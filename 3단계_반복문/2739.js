@@ -1,0 +1,4 @@
+let num = parseInt(require('fs').readFileSync('input.txt').toString());
+for(i=1; i<=9; i++){
+    console.log(`${num} * ${i} = ${num*i}`);
+}
