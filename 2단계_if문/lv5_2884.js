@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('예제.txt').toString().split(' ');;
+let input = require('fs').readFileSync('input.txt').toString().split(' ');;
 //let input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
 const hour = parseInt(input[0]);
 const minutes = parseInt(input[1]);
